@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Письмо Санте</h1>
+<h4>Дорогой друг, не стесняйся и раскажи Санте о том, кто ты и о том, что ты хочешь получить на рождество</h4>
+<form action="greetings.html">
+
+    <input type="text" placeholder="Логин" id="login" name="login" required>
+    <br>
+    <br>
+    <input type="text" placeholder="Пароль" id="password" name="password" required>
+    <br>
+    <br>
+    <input type="text" placeholder="Имя" id="name" name="name" required>
+    <p><b>Пол:</b></p>
+    <input type="radio" id="boy" name="sex" value="boy">
+    <label for="boy">Мальчик</label>
+    <input type="radio" id="girl" name="sex" value="girl">
+    <label for="girl">Девочка</label>
+    <br>
+    <p>День рождения:</p>
+    <input type="date"  id="data" name="Data" required>
+    <br>
+    <input type="text" placeholder="Город" id="stadt" name="Stadt" required>
+    <p><b>Выбери цвет своей новой игрушки</b>></p>
+    <table border="5">
+        <tr>
+            <td>красный</td>
+        </tr>
+    </table><p>Красный</p>
+    <table border="5">
+        <tr>
+            <td>белый</td>
+        </tr>
+    </table><p>Белый</p>
+    <p>Ты был хорошим ребёнком?</p>
+    <input type="radio" id="yes" name="antword" value="yes">
+    <label for="yes">Лучше всех</label>
+    <input type="radio" id="no" name="antword" value="no">
+    <label for="no">Не в этом году</label>
+    <br>
+    <button type="submit">Отправить письмо Санте</button>
+
+</form>
+</body>
+</html>
